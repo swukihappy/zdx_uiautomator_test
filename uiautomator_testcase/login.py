@@ -4,7 +4,9 @@ import uiautomator2 as u2
 from uiautomator2 import UiObject
 import uiautomator2.ext.htmlreport as htmlreport
 import time
-d = u2.connect("172.16.56.174")
+d = u2.connect("xx.xx.xx.xxxx")
+print(d.info)
+print(d.current_app())
 #hrp = htmlreport.HTMLReport(d)
 #d.app_stop("air.tv.douyu.android")
 #d.app_clear("air.tv.douyu.android")
