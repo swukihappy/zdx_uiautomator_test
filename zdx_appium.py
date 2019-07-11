@@ -2,7 +2,7 @@
 # This sample code uses the Appium python client
 # pip install Appium-Python-Client
 # Then you can paste this into a file and simply run with Python
-
+import mysql
 from appium import webdriver
 
 caps = {}
