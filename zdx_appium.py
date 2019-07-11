@@ -3,6 +3,7 @@
 # pip install Appium-Python-Client
 # Then you can paste this into a file and simply run with Python
 import mysql
+# 12345
 from appium import webdriver
 
 caps = {}
